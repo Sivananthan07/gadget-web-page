@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadgets</title>
+    <link rel="stylesheet" href="inde.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-dark-subtle px-2">
+        <!-- ...........................................Navbar section starts.......................................................... -->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary-subtle">
+            <div class="container">
+                <a class="navbar-brand " href="#"><img src="banner1.png" alt="" style="width: 150px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav  ">
+
+                        <div class="input-group me-4">
+                            <input style="width:350px;" type="text" class="form-control  ms-5"
+                                placeholder="Search for products, brands and more">
+                            <span class="input-group-text"><a class="" href=""><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="16" fill="currentColor" class="bi bi-search-heart-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M6.5 13a6.474 6.474 0 0 0 3.845-1.258h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.008 1.008 0 0 0-.115-.1A6.471 6.471 0 0 0 13 6.5 6.502 6.502 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13Zm0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z" />
+                                    </svg></a></span>
+                        </div>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ms-2" href="#" data-bs-toggle="dropdown">
+                                Siva
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#"><svg class="me-3"
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                            <path fill-rule="evenodd"
+                                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                        </svg> Profile</a></li>
+                                <li><a class="dropdown-item" href="#"><svg class="me-3"
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                        </svg> Orders</a></li>
+                                <li><a class="dropdown-item" href="#"><svg class="me-3"
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z" />
+                                        </svg> Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#"><svg class="me-3"
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-upc-scan" viewBox="0 0 16 16">
+                                            <path
+                                                d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5zM3 4.5a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-7zm3 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7z" />
+                                        </svg> Coupon</a></li>
+                                <li><a class="dropdown-item" href="#"><svg class="me-3"
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                                        </svg> Notification </a></li>
+                                <li><a class="dropdown-item" href="#"><svg class="me-3"
+                                            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-power" viewBox="0 0 16 16">
+                                            <path d="M7.5 1v7h1V1h-1z" />
+                                            <path
+                                                d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z" />
+                                        </svg> Logout</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 me-5" href="#"> Cart</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link ms-3 btn  text-bg-primary" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3 btn  text-bg-primary" href="#">Signup</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- .............................................Navbar section End................................................................. -->
+
+        <!-- ..............................................category section.................................................................. -->
+
+        <div class="carousel slide my-1 " data-bs-ride="carousel"></div>
+        <div class="container-fluid  bg-white">
+
+            <div class="q">
+                <a href="">
+                    <img src="Projector1.jpeg" alt="">
+                    <h6>projector</h6>
+                </a>
+
+
+            </div>
+            <div class="q">
+                <a href="">
+                    <img src="licensed-image.jpeg" alt="">
+                    <h6>Mobiles</h6>
+                </a>
+
+
+            </div>
+            <div class="q">
+                <a href="">
+                    <img src="computer2.jpeg"
+                        alt="">
+                    <h6>Computer</h6>
+                </a>
+
+
+
+
+
+            </div>
+            <div class="q">
+                <a href="">
+                    <img src="earbuds.jpeg"
+                        alt="">
+                    <h6>earbuds</h6>
+                </a>
+
+
+            </div>
+            <div class="q">
+                <a href="">
+                    <img src="alarm clock.jpeg"
+                        alt="">
+                    <h6>Alarm clock</h6>
+                </a>
+
+
+            </div>
+            <div class="q">
+                <a href="">
+                    <img src="antenna.jpeg" alt="">
+                    <h6>antenna</h6>
+                </a>
+
+            </div>
+            <div class="q car">
+                <a href="">
+                    <img src="pngimg.com - calculator_PNG7953.png" alt="">
+                    <h6>calculator</h6>
+                </a>
+
+            </div>
+            <div class="q">
+                <a href="">
+                    <img src="memory stick.jpeg"
+                        alt="">
+                    <h6>Memory stick</h6>
+                </a>
+
+            </div>
+
+            <div class="q">
+                <a href="">
+                    <img src="N64-Console-Set.jpg" alt="">
+                    <h6>Game console</h6>
+                </a>
+
+
+            </div>
+
+           <div class="q">
+                <a href="">
+                    <img src="hard disk1.jpeg" alt="">
+                    <h6>Hard disk</h6>
+                </a>
+                
+           </div>   
+               
+               
+                <div class="q">
+                    <a href="">
+                        <img src="apple watch.jpeg" alt="">
+                        <h6>Watches</h6>
+                    </a>
+
+            </div>
+            
+        </div>
+
+        <!-- .................................................Category section ends................ ....................... -->
+
+        <!-- ................................................carosul banner section  starts................................ -->
+
+
+
+        <div class="carousel slide my-1 " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="banner1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="banner2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="banner3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <!-- ...........................................carusol banner section ends.................................................... -->
+
+        <div class="container-fluid mt-2 py-2 bg-white   ">
+            <div class="row mx-2">
+                <div class="col-lg-3 col-md-4 mt-5 col-12 ">
+                    <div class="card border-0 shadow img-fluid bg-white " style="width:500px">
+                        <img class="card-img-top " src="web camera.png" alt="Card image" style="width:100px">
+                        <div class="card-img-overlay text-center">
+                            <h1 class="card-title text-center ">Best Of  Gadgets</h1>
+                            <!-- <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p> -->
+                            <a href="#" class="btn  btn-primary ">See all</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ......................................................scroll................................................................... -->
+
+
+                <div class="col-lg-9  col-md-8 col-12    ">
+                    <div class="hi">
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="digital camera1.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Camera</h4>
+                                <p class="text-success"> From ₹5000</p>
+                                <p class="mtm">nikon</p>
+                                </a>
+                                 
+                            </div>
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="computer2.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Best of computer</h4>
+                                <p class="text-success">From ₹12000</p>
+                                <p class="mtm">lenovo</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="e book.png"
+                                    alt="">
+                                <h4 class="mt-4">e book</h4>
+                                <p class="text-success">Shop</p>
+                                <p class="mtm">online</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="Projector1.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Projectors</h4>
+                                <p class="text-success"> From ₹ 9999</p>
+                                <p class="mtm">Zebronics</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="printer).jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Printers</h4>
+                                <p class="text-success">From ₹ 2336</p>
+                                <p class="mtm">Cannon</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="pngimg.com - computer_mouse_PNG7688.png"
+                                    alt="">
+                                <h4 class="mt-4">Laptops</h4>
+                                <p class="text-success">From ₹ 400</p>
+                                <p class="mtm">Asus, Dell</p>
+                            </a>
+                        </div>
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="pngimg.com - calculator_PNG7953.png"
+                                    alt="">
+                                <h4 class="mt-4">Calculator</h4>
+                                <p class="text-success"> From ₹99 </p>
+                                <p class="mtm">cell</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="memory stick.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">laptop</h4>
+                                <p class="text-success">₹ 9999</p>
+                                <p class="mtm">Samsung, Lg, Benq</p>
+                            </a>
+                        </div>
+
+
+
+
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="tv1.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Television</h4>
+                                <p class="text-success">From ₹ 399</p>
+                                <p class="mtm">Samsung, Sony& More</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="web camera.png"
+                                    alt="">
+                                <h4 class="mt-4">Web cameras</h4>
+                                <p class="text-success">Shop</p>
+                                <p class="mtm">Samsung, mi & more</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="Projector1.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Projectors</h4>
+                                <p class="text-success"> From ₹ 9999</p>
+                                <p class="mtm">Zebronics</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="printer1.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Printers</h4>
+                                <p class="text-success">From ₹ 2336</p>
+                                <p class="mtm">Cannon</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="Tablet multi (1).webp"
+                                    alt="">
+                                <h4 class="mt-4">Tablet</h4>
+                                <p class="text-success">From ₹ 15000</p>
+                                <p class="mtm">Asus, Dell</p>
+                            </a>
+                        </div>
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="PD Quick charger.jpeg.jpg"
+                                    alt="">
+                                <h4 class="mt-4">Chargers</h4>
+                                <p class="text-success"> From ₹799 </p>
+                                <p class="mtm">Rd, Mi</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="speakers).jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Speakers</h4>
+                                <p class="text-success">₹ 9999</p>
+                                <p class="mtm">Samsung, Lg, Benq</p>
+                            </a>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+ <!-- ......................................................Third................................................... -->
+
+
+
+
+
+
+ <div class="container-fluid mt-2 py-2 bg-white  ">
+    <div class="row mx-2">
+        <div class="col-lg-3 col-md-4 col-12 ">
+            <div class="card border-0 shadow img-fluid bg-white " style="width:500px">
+                <img class="card-img-top " src="Toys.png" alt="Card image" style="width:100%">
+                <div class="card-img-overlay text-center">
+                    <h1 class="card-title text-center ">cheap cool </h1>
+                    <h1 class="card-title text-center ">gadgets</h1>
+                    <!-- <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p> -->
+                    <a href="#" class="btn  btn-primary ">See all</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9  col-md-8 col-12 ">
+            <div class="hi">
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="digital alarm.jpeg.jpeg"
+                            alt="">
+                        <h4 class="mt-4">digital alarm</h4>
+                        <p class="text-success">from ₹500</p>
+                        <p class="mtm">Alarm</p>
+                    </a>
+                </div>
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="projector laser.jpeg.jpeg"
+                            alt="">
+                        <h4 class="mt-4">laser projection</h4>
+                        <p class="text-success">from ₹2000</p>
+                        <p class="mtm">Projection</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="monocular teles.jpeg"
+                            style="width: 100px;" alt="">
+                        <h4 class="mt-4">Monocular Telescope</h4>
+                        <p class="text-success">from ₹500</p>
+                        <p class="mtm">Telescope</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="vr headset.jpeg.jpeg"
+                            alt="">
+                        <h4 class="mt-4">VR Headset</h4>
+                        <p class="text-success">From ₹5000</p>
+                        <p class="mtm">Visual</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="hd screen.jpeg.jpeg"
+                            alt="">
+                        <h4 class="mt-4">Silicon Screen</h4>
+                        <p class="text-success">From ₹ 200</p>
+                        <p class="mtm">Screen</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="neck fan.jpeg.webp"
+                            alt="">
+                        <h4 class="mt-4">Air Cooler</h4>
+                        <p class="text-success">Min 70% Off</p>
+                        <p class="mtm">Cooler</p>
+                    </a>
+                </div>
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="recharge fan.jpeg.webp"
+                            alt="">
+                        <h4 class="mt-4">rechargeable fan</h4>
+                        <p class="text-success">From ₹1199</p>
+                        <p class="mtm">fan</p>
+                    </a>
+                </div>
+
+
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="printer1.jpeg"
+                            alt="">
+                        <h4 class="mt-4">Color Printer</h4>
+                        <p class="text-success">From ₹2000</p>
+                        <p class="mtm">Printer</p>
+                    </a>
+                </div>
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="hard disk1.jpeg"
+                            alt="">
+                        <h4 class="mt-4">hard disk</h4>
+                        <p class="text-success">From ₹2000</p>
+                        <p class="mtm">500gb to 2tb</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="multi hammer tool.jpeg.webp"
+                            style="width: 100px;" alt="">
+                        <h4 class="mt-4">Multihmmer Tool</h4>
+                        <p class="text-success">From ₹999</p>
+                        <p class="mtm">Tools</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="led flashlight.jpeg.webp"
+                            alt="">
+                        <h4 class="mt-4">LED Flash Light</h4>
+                        <p class="text-success">From ₹200</p>
+                        <p class="mtm">Flash Light</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="coconut.jpeg.webp"
+                            alt="">
+                        <h4 class="mt-4">Coconut Opener</h4>
+                        <p class="text-success">From ₹ 99</p>
+                        <p class="mtm">Tools</p>
+                    </a>
+                </div>
+
+
+           </div>
+        </div>
+    </div>
+</div>
+
+
+ <!-- ......................................................Third................................................... -->
+
+
+
+
+
+
+ <div class="container-fluid mt-2 py-2 bg-white  ">
+    <div class="row mx-2">
+        <div class="col-lg-3 col-md-4 col-12 ">
+            <div class="card border-0 shadow img-fluid bg-white " style="width:500px">
+                <img class="card-img-top " src="Toys.png" alt="Card image" style="width:100%">
+                <div class="card-img-overlay text-center">
+                    <h1 class="card-title text-center ">Kids Cool </h1>
+                    <h1 class="card-title text-center ">gadgets</h1>
+                    <!-- <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p> -->
+                    <a href="#" class="btn  btn-primary ">See all</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9  col-md-8 col-12 ">
+            <div class="hi">
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="lcd write.jpeg"
+                            alt="">
+                        <h4 class="mt-4">LCD Writing</h4>
+                        <p class="text-success">from ₹200</p>
+                        <p class="mtm">Writing</p>
+                    </a>
+                </div>
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="vr headset.jpeg.jpeg"
+                            alt="">
+                        <h4 class="mt-4">VR Glasses</h4>
+                        <p class="text-success">from ₹700</p>
+                        <p class="mtm">Headset</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="hockey.jpeg"
+                            style="width: 100px;" alt="">
+                        <h4 class="mt-4">Hockey Table</h4>
+                        <p class="text-success">from ₹1500</p>
+                        <p class="mtm">Games</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="robot toy.jpeg"
+                            alt="">
+                        <h4 class="mt-4">Robot Toy</h4>
+                        <p class="text-success">From ₹4000</p>
+                        <p class="mtm">Games</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="ruff pad.jpeg"
+                            alt="">
+                        <h4 class="mt-4">RuffPad</h4>
+                        <p class="text-success">From ₹ 200</p>
+                        <p class="mtm">Writing Pad</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="kids camera.jpeg"
+                            alt="">
+                        <h4 class="mt-4">kids Cameras</h4>
+                        <p class="text-success">From ₹799</p>
+                        <p class="mtm">Camera</p>
+                    </a>
+                </div>
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="led voice.jpeg"
+                            alt="">
+                        <h4 class="mt-4">Digital LED Voice</h4>
+                        <p class="text-success">From ₹799</p>
+                        <p class="mtm">Voice</p>
+                    </a>
+                </div>
+
+
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="telescope reflect.jpeg.jpg"
+                            alt="">
+                        <h4 class="mt-4">Telescope Refractor</h4>
+                        <p class="text-success">From ₹1999</p>
+                        <p class="mtm">telescope</p>
+                    </a>
+                </div>
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="ranger.webp"
+                            alt="">
+                        <h4 class="mt-4">Ranger Scooter</h4>
+                        <p class="text-success">From ₹2000</p>
+                        <p class="mtm">Tranport</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="launchr.jpg.webp"
+                            style="width: 100px;" alt="">
+                        <h4 class="mt-4">Launcher Gun</h4>
+                        <p class="text-success">From ₹1899</p>
+                        <p class="mtm">Shooting</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="walkie talkie.jpg.webp"
+                            alt="">
+                        <h4 class="mt-4">Walkie talkie</h4>
+                        <p class="text-success">From ₹300</p>
+                        <p class="mtm">Communication</p>
+                    </a>
+                </div>
+
+
+                <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                        <img class="ho"
+                            src="guitar.webp"
+                            alt="">
+                        <h4 class="mt-4">Mini toy Guitar</h4>
+                        <p class="text-success">From ₹ 199</p>
+                        <p class="mtm">Music</p>
+                    </a>
+                </div>
+
+
+           </div>
+        </div>
+    </div>
+</div>
+
+
+ <!-- ......................................................fourth................................................... -->
+
+
+
+
+
+
+ 
+
+        <!-- /....................................Fourth................................................................................. -->
+
+        <div class="container-fluid mt-2 py-2 bg-white   ">
+            <div class="row mx-2">
+                <div class="col-lg-3 col-md-4 col-12 ">
+                    <div class="card shadow border-0 img-fluid bg-white " style="width:500px">
+                        <img class="card-img-top" src="pngwing.com (11).png" alt="Card image" style="width:100%">
+                        <div class="card-img-overlay text-center">
+                            <h1 class="card-title text-center ">Discount</h1>
+                            <h1 class="card-title text-center ">For You</h1>
+                            <!-- <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p> -->
+                            <a href="#" class="btn  btn-primary ">See all</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9  col-md-8 col-12 ">
+                    <div class="hi">
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="laptop table.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Portable laptop table</h4>
+                                <p class="text-success">Min 50% Off</p>
+
+                            </a>
+                        </div>
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho" style="width: 100px;"
+                                    src="wallet).jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Wallet</h4>
+                                <p class="text-success">Min 65% Off</p>
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="home theatrs.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Speakers</h4>
+                                <p class="text-success">Min 50% Off</p>
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="tv1.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Television</h4>
+                                <p class="text-success">Min 30% Off</p>
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="Tablet multi (1).webp"
+                                    alt="">
+                                <h4 class="mt-4">Tablet</h4>
+                                <p class="text-success">Min 50% Off</p>
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="carlock).jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Car </h4>
+                                <p class="text-success">Min 75% off</p>
+
+                            </a>
+                        </div>
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho" style="width: 100px;"
+                                    src="bagpack.jpg"
+                                    alt="">
+                                <h4 class="mt-4">Backpacks</h4>
+                                <p class="text-success">Min 80% off</p>
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="speakers).jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Speakers</h4>
+                                <p class="text-success">Min 50% Off</p>
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="pizza owen.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Pizza Owen</h4>
+                                <p class="text-success">Min 50% Off</p>
+
+                            </a>
+                        </div>
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho" style="width: 100px;"
+                                    src="PD Quick charger.jpeg.jpg"
+                                    alt="">
+                                <h4 class="mt-4">Chargers</h4>
+                                <p class="text-success">Min 65% Off</p>
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="monocular telescope.jpeg.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Telescope</h4>
+                                <p class="text-success">Min 50% Off</p>
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="Projector1.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Projector</h4>
+                                <p class="text-success">Min 30% Off</p>
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="apple watch.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Apple</h4>
+                                <p class="text-success">Min 50% Off</p>
+                            </a>
+                        </div>
+
+
+                         <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="computer2.jpeg"
+                                    alt="">
+                                <h4 class="mt-4">Computer</h4>
+                                <p class="text-success">Min 75% off</p>
+
+                            </a>
+                        </div>
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho" style="width: 100px;"
+                                    src="desk lamp.jpg"
+                                    alt="">
+                                <h4 class="mt-4">Desk lamp</h4>
+                                <p class="text-success">Min 80% off</p>
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img class="ho"
+                                    src="book holder.webp"
+                                    alt="">
+                                <h4 class="mt-4">Stand</h4>
+                                <p class="text-success">Min 50% Off</p>
+
+                            </a>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ...........................................single starts....................................................... -->
+
+
+        <div class="container-fluid mt-2 py-2 bg-white ">
+            <div class="row mt-1 pt-3 mx-2">
+                <div class="col-6">
+                    <h4>Most Buys</h4>
+
+                </div>
+                <div class="col-6">
+                    <button type="button" class=" float-end btn btn-primary ">View All</button>
+                </div>
+                <hr>
+
+
+            </div>
+
+
+
+
+            <div class="row"></div>
+            <div class="col-12 ">
+                <div class="hi">
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="Daco_72850.png"
+                                alt="">
+                            <h4 class="mt-4">Mobiles</h4>
+                            <p class="text-success">Big Saving</p>
+
+                        </a>
+                    </div>
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="computer2.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Computer Accesories</h4>
+                            <p class="text-success">Technologies</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="tv1.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Television</h4>
+                            <p class="text-success">Premier</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="tablet.jpg"
+                                alt="">
+                            <h4 class="mt-4">Tablet</h4>
+                            <p class="text-success">Special</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="apple watch.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Watches</h4>
+                            <p class="text-success">Brands</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="dvd player.jpg"
+                                alt="">
+                            <h4 class="mt-4">Players</h4>
+                            <p class="text-success">Top Selections</p>
+
+                        </a>
+                    </div>
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="speakers).jpeg"
+                                alt="">
+                            <h4 class="mt-4">Speakers</h4>
+                            <p class="text-success">Audio</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="bagpack.jpg"
+                                alt="">
+                            <h4 class="mt-4">Backpacks</h4>
+                            <p class="text-success">Top Deals</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="Projector1.jpeg"
+                                alt="">
+                            <h4 class="mt-4">projector</h4>
+                            <p class="text-success">Best Deals</p>
+
+                        </a>
+                    </div>
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="monocular telescope.jpeg.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Telescope</h4>
+                            <p class="text-success">Saving Money</p>
+
+                        </a>
+                    </div>
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="computer3.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Computer Accesories</h4>
+                            <p class="text-success">Hand Picked</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="recharge fan.jpeg.webp"
+                                alt="">
+                            <h4 class="mt-4">Fans</h4>
+                            <p class="text-success">Most Loved</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="dvd player1.png"
+                                alt="">
+                            <h4 class="mt-4">DVD Playes</h4>
+                            <p class="text-success">Players</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="Tablet multi (1).webp"
+                                alt="">
+                            <h4 class="mt-4">Cooling pads</h4>
+                            <p class="text-success">Special offers</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="hard disk1.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Storage Devices</h4>
+                            <p class="text-success">Top Selections</p>
+
+                        </a>
+                    </div>
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="apple watch.jpeg.webp"
+                                alt="">
+                            <h4 class="mt-4">Watches</h4>
+                            <p class="text-success">Special offers</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="digital camera1.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Camera</h4>
+                            <p class="text-success">Top Deals</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="google_glass_ee_2.jpg"
+                                alt="">
+                            <h4 class="mt-4">Glasses</h4>
+                            <p class="text-success">Best Deals</p>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-2 py-2 bg-white ">
+            <div class="row mt-1 pt-3 mx-2">
+                <div class="col-6">
+                    <h4>Top Selection</h4>
+
+                </div>
+                <div class="col-6">
+                    <button type="button" class=" float-end btn btn-primary ">View All</button>
+                </div>
+                <hr>
+
+            </div>
+
+            <div class="row"></div>
+            <div class="col-12 ">
+                <div class="hi">
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="tablet.jpg"
+                                alt="">
+                            <h4 class="mt-4">Tablets</h4>
+                            <p class="text-success">Big Saving</p>
+
+                        </a>
+                    </div>
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="Daco_72850.png"
+                                alt="">
+                            <h4 class="mt-4">Mobiles</h4>
+                            <p class="text-success">Technologies</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="computer2.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Computers</h4>
+                            <p class="text-success">Premier</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="telescope reflect.jpeg.jpg"
+                                alt="">
+                            <h4 class="mt-4">Telescope</h4>
+                            <p class="text-success">Special</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="projector laser.jpeg.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Projector</h4>
+                            <p class="text-success">Brands</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="dvd player.jpg"
+                                alt="">
+                            <h4 class="mt-4">Players</h4>
+                            <p class="text-success">Top Selection</section></p>
+
+                        </a>
+                    </div>
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="vr headset.jpeg.jpeg"
+                                alt="">
+                            <h4 class="mt-4">headset</h4>
+                            <p class="text-success">Audio</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="bagpack.jpg"
+                                alt="">
+                            <h4 class="mt-4">Backpacks</h4>
+                            <p class="text-success">Top Deals</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="Projector1.jpeg"
+                                alt="">
+                            <h4 class="mt-4">projector</h4>
+                            <p class="text-success">Best Deals</p>
+
+                        </a>
+                    </div>
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="game console1.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Games</h4>
+                            <p class="text-success">Saving Money</p>
+
+                        </a>
+                    </div>
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="digital camera1.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Camera</h4>
+                            <p class="text-success">Hand Picked</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="keyboard.webp"
+                                alt="">
+                            <h4 class="mt-4">Keyboard</h4>
+                            <p class="text-success">Most Loved</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="earbuds.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Earbuds</h4>
+                            <p class="text-success">Players</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="robot toy1.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Toys</h4>
+                            <p class="text-success">Special offers</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="home theatrs.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Speakers</h4>
+                            <p class="text-success">Top Selections</p>
+
+                        </a>
+                    </div>
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="digital alarm.jpeg.jpeg"
+                                alt="">
+                            <h4 class="mt-4">clock</h4>
+                            <p class="text-success">Special offers</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="tv1.jpeg"
+                                alt="">
+                            <h4 class="mt-4">Television</h4>
+                            <p class="text-success">Top Deals</p>
+
+                        </a>
+                    </div>
+
+
+                    <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                            <img class="ho"
+                                src="guitar.webp"
+                                alt="">
+                            <h4 class="mt-4">guitar</h4>
+                            <p class="text-success">Best Deals</p>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  ...................................................next................................................................... -->
+
+        <div class="container-fluid mt-2 py-2 bg-white  ">
+            <div class="row mx-2">
+                <div class="col-lg-3 col-md-4 col-12 ">
+                    <div class="card shadow img-fluid bg-white border-0 " style="width:500px">
+                        <img class="card-img-top" src="Daco_72850.png" alt="Card image" style="width:100%">
+                        <div class="card-img-overlay text-center">
+                            <h1 class="card-title text-center ">Recently</h1>
+                            <h1 class="card-title text-center ">Viewed</h1>
+
+                            <a href="#" class="btn  btn-primary ">See all</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9  col-md-8 col-12 ">
+
+
+
+
+                    <div class="hi">
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width: 125px" class="ho"
+                                    src="computer2.jpeg"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">acer</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">3.5 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 19999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹40000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width: 125px" class="ho"
+                                    src="Daco_72850.png"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">Mobiles</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">3.1 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 9999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹15000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width: 150px" class="ho"
+                                    src="tablet.jpg"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">Tablet</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">4.1 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 5999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹10000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width: 125px" class="ho"
+                                    src="apple watch.jpeg"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">Apple Watch</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">3.7 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 5999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹10000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+
+
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width:150px" class="ho"
+                                    src="dvd player1.png"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">DVD Player</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">3.9 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 8999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹20000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width: 125px" class="ho"
+                                    src="tv1.jpeg"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">Television</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">3.6 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 6999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹10000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width: 125px" class="ho"
+                                    src="tablet.jpg"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">Tablet</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">3.4 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 2999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹8000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width: 150px" class="ho"
+                                    src="web camera.png"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">Web  Cameras</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">3.2 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹4000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width: 125px" class="ho"
+                                    src="speakers).jpeg"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">Speakers</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">3.5 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 2999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹7000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+
+
+
+
+                        <div class="chi mx-4 "><a class="text-decoration-none" href="">
+                                <img style="width:150px" class="ho"
+                                    src="guitar.webp"
+                                    alt="">
+                                <h6 class="mt-4 text-dark">Guitar</h6>
+                                <p class="mtm text-bg-success d-inline p-1 rounded ">3.7 <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg></p> <span>(500)</span>
+                                <p class="text-success"><b class="text-dark"> ₹ 4999 </b> <span
+                                        class="text-decoration-line-through opacity-50 text-dark"> ₹8000
+                                    </span></p>
+
+
+                            </a>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+ 
+
+
+
+
+                </div>
+
+            </div>
+        </div> -->
+
+
+
+        <!-- ...................................................with line................................................... -->
+
+
+       <div class="container-fluid text-bg-dark">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-2 col-6 ">
+                        <ul class="">
+                            <li class="list-unstyled text-white-50 my-3">ABOUT</li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white" href="">Contact
+                                    us</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white" href="">About
+                                    us</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">Careers</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">gadget freeks.com</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href=">Gadgets Wholeshale" width="150%" height 115%</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">Gadget Information</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <ul class="">
+                            <li class="list-unstyled text-white-50 my-3">HELP</li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">Payments</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">Shipping</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">Cancellation & Returns</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white" href="">FAQ</a>
+                            </li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">Report</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <ul class="">
+                            <ul class="">
+                                <li class="list-unstyled text-white-50 my-3">POLICY</li>
+                                <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                        href="">Return
+                                        policy</a></li>
+                                <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                        href="">Terms of use</a>
+                                </li>
+                                <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                        href="">Security</a>
+                                </li>
+                                <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                        href="">Privacy</a></li>
+                                <li class="list-unstyled  my-1 hu"><a class="text-decoration-none text-white"
+                                        href="">Sitemap</a></li>
+
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <ul class="text-center">
+                            <li class="list-unstyled text-white-50 my-3">Social</li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white" href=""><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                    </svg></a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white" href=""><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg></a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white" href=""><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg></a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white" href=""><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-youtube" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                    </svg></a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-6 border-start">
+                        <ul class="">
+                            <li class="list-unstyled text-white-50 my-3">Mail us</li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">siva62441@gmail.com Tamilnadu</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">India</a></li>
+
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <ul class="">
+                            <li class="list-unstyled text-white-50 my-3">Address</li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">kallakurichi  Tamilnadu</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">India</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white" href="">CIN :
+                                    044-076010345</a></li>
+                            <li class="list-unstyled my-1 hu"><a class="text-decoration-none text-white"
+                                    href="">phone:9629218068</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid text-bg-dark p-5">
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-2  col-12"><a class="text-decoration-none text-white" href=""><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                            fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+                        </svg  >Become a Seller</a>
+                </div>
+                <div class="col-lg-2 col-12"> <a class="text-decoration-none text-white" href=""> <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                            fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                            <path
+                                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                        </svg> Advertice
+                    </a>
+
+                </div>
+                <div class="col-lg-1 col-12"><a class="text-decoration-none text-white" href="">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+                            class="bi bi-gift-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z" />
+                        </svg> Gift
+                    </a>
+
+                </div>
+                <div class="col-lg-1 col-12"><a class="text-decoration-none text-white" href=""><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                            fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
+                        </svg> Help </a>
+                </div>
+
+
+                <div class="col-lg-2 col-12">
+                    <a class="text-decoration-none text-white" href="">© 2023-2024 rights</a>
+
+                </div>
+                <div class="col-lg-4 col-12">
+                    <img class="img-fluid"
+                        src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
